@@ -1,3 +1,4 @@
+// teste
 const tasks = [
   { title: "Comprar comida para o gato", type: "Urgente" },
   { title: "Consertar Computador", type: "Importante" },
@@ -20,7 +21,6 @@ function renderElements(tasks) {
     ulElement.appendChild(taskItem);
   });
 }
-// renderElements(tasks);
 
 function createTaskItem(task, index) {
   let li = document.createElement('li');
