@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'roboto', sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f5f5f5;
+  font-family: 'Roboto', sans-serif;
+  width: 100%vw;
+  height: 100%vh;
+}
+
+/* cabeçalho */
+
+.header__container {
+  display: flex;
+  background-color: white;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  width: 50%;  
+}
+
+.header__title {
+  color: blue;
+  margin-right: auto;
+}
+
+.header__input--search {
+  width: 60%;
+  height: 35px;
+  border-radius: 4px;
+  background-color: #ebebeb;
+  border: 0;
+}
+
+/* conteudo principal */
+.main__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  height: auto;
+  padding: 15px;  
+}
+
+/* adicionar tarefa */
+
+.form__container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 150px;
+  padding: 15px;
+  border-radius: 8px;  
+  margin-bottom: 20px;  
+}
+
+.form__input-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 35px;  
+}
+
+.form__input-container input {
+  width: 60%;
+  background-color: #ebebeb;
+  border: 0;
+  border-radius: 4px;
+}
+
+.form__input-container select {
+  width: 35%;
+  background-color: #ebebeb;
+  border: 0;
+  border-radius: 4px;
+}
+
+.form__button--add-task {
+  height: 35px;
+  background-color: #3b5bdb;
+  color: white;
+  margin-top: 10px;
+}
+
+/* listagem de tarefas */
+
+.tasks__container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;   
+}
+
+.tasks__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 80%;  
+}
+
+.task__item {
+  display: flex;
+  width: 100%;
+  height: 35px;
+  background-color: #ebebeb;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 4px;  
+  margin-top: 5px;  
+}
+
+.task-info__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.task__button--remove-task {
+  background-image: url("./assets/trash-icon.svg");
+  background-repeat: no-repeat;
+  padding: 6px;
+  border: 0;
+  margin-right: 10px;
+}
+
+.task-type {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.span-urgent {
+  background-color: #e40404;
+}
+
+.span-important {
+  background-color: #f3a703;
+}
+
+.span-normal {
+  background-color: #028302;
+}
