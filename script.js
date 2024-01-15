@@ -1,4 +1,3 @@
-// teste
 const tasks = [
   { title: "Comprar comida para o gato", type: "Urgente" },
   { title: "Consertar Computador", type: "Importante" },

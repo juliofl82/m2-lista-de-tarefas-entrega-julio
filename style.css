@@ -60,7 +60,6 @@ body {
 }
 
 /* adicionar tarefa */
-
 .form__container {
   display: flex;
   flex-direction: column;
@@ -102,7 +101,6 @@ body {
 }
 
 /* listagem de tarefas */
-
 .tasks__container {
   display: flex;
   flex-direction: column;
