@@ -21,7 +21,7 @@ function renderElements(tasks) {
   });
 }
 
-function createTaskItem(task, index) {
+function createTaskItem(task) {
   let li = document.createElement('li');
   li.className = 'task__item';
 
@@ -51,7 +51,10 @@ function createTaskItem(task, index) {
   let button = document.createElement('button');
   button.className = 'task__button--remove-task';
   button.addEventListener('click', function () {
-    tasks.splice(index, 1);
+    let index = tasks.indexOf(task);
+    if (index !== -1) {
+      tasks.splice(index, 1);
+    }
     renderElements(tasks);
   });
   li.appendChild(taskInfoContainer);
