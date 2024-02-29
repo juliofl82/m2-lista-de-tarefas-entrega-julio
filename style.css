@@ -56,7 +56,7 @@ body {
   align-items: center;
   width: 50%;
   height: auto;
-  padding: 15px;  
+  padding: 15px;   
 }
 
 /* adicionar tarefa */
@@ -97,7 +97,7 @@ body {
   height: 35px;
   background-color: #3b5bdb;
   color: white;
-  margin-top: 10px;
+  margin-top: 10px;  
 }
 
 /* listagem de tarefas */
@@ -117,7 +117,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  height: 80%;  
+  height: 80%;    
 }
 
 .task__item {
